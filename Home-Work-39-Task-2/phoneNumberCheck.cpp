@@ -12,10 +12,10 @@ phoneNumberCheck::phoneNumberCheck(QWidget *parent)
 
 void phoneNumberCheck::setOkLabel() {
     ui.label->setText("OK");
-    ui.label->setStyleSheet("QLabel color : green");
+    ui.label->setStyleSheet("QLabel { color : green; }");
 };
 
 void phoneNumberCheck::setNOkLabel() {
     ui.label->setText("Not OK");
-    ui.label->setStyleSheet("QLabel color : red");
+    ui.label->setStyleSheet("QLabel { color : red; }");
 };
